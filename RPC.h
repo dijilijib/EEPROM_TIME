@@ -1,4 +1,5 @@
-#include "RPC.h"
+#ifndef RPC_H
+#define RPC_H
 
 #define ENCRYPTED false
 constexpr const char RPC_SWITCH_METHOD[] PROGMEM = "example_set_switch";
